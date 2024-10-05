@@ -26,7 +26,7 @@ def preprocess_text(text):
     return ' '.join(cleaned_tokens)
 
 # Load the QA pipeline model
-qa_pipeline = pipeline("question-answering")
+qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad", device=-1)
 
 # Function to answer a question using the QA model
 def answer_question(question, context):
