@@ -2,5 +2,5 @@ streamlit==1.25.0
 nltk==3.8.1
 PyPDF2==3.0.1
 transformers==4.30.2
-torch==2.0.1+cpu  #Ensures you use the CPU-only version of torch
 scikit-learn==1.3.0
+
